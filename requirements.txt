@@ -1,0 +1,9 @@
+crewai
+python-dotenv
+neo4j
+yfinance
+newsapi-python
+sec-api
+pandas
+numpy
+requests 
