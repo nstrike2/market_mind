@@ -1,7 +1,9 @@
 # MarketMind: Graph-Based Market Intelligence System
 
 ## Why I Built This
-Traditional market analysis treats stocks as isolated entities, analyzing price movements in a vacuum. But markets are deeply interconnected - a chip shortage in Taiwan can impact iPhone sales, which affects hundreds of suppliers. MarketMind uses graph database technology to map these complex relationships and predict cascade effects across markets.
+Traditional market analysis treats stocks as isolated entities, analyzing price movements in a vacuum. But markets are deeply interconnected - a chip shortage in Taiwan can impact iPhone sales, which affects hundreds of suppliers. I've built trading algorithms before, which told me about _how_ markets were moving, but never actually _why_ - I wanted to create a system that could derive a human-like understanding of markets. MarketMind uses graph database technology to map these complex relationships and predict cascade effects across markets.
+
+Knowledge graphs are an incredibly rich representation of data for any machine learning system to derive semantic undestanding, engendering immensely practical applications including the reduction of hallcuination in LLMs, more accurate information retrieval for applications such as RAG, and many more!
 
 Key differentiators:
 - **Supply Chain Mapping**: Automatically identifies and quantifies supplier relationships
