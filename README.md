@@ -17,6 +17,9 @@ Key differentiators:
 ## Demo Options
 
 ### 1. Technical Demo (demo_features.py)
+
+See [here](https://youtu.be/ZbAoXYsBkuM) for my full technical demo!
+
 Shows raw system capabilities and data analysis:
 ```python
 # Example: Analyze iPhone 15 launch impact across supply chain
