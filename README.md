@@ -2,6 +2,17 @@
 
 MarketMind leverages knowledge graphs to map complex dependencies and entity relationships in financial markets, enabling a human-like understanding of market movements. Unlike traditional analysis, it uncovers hidden network effects, supply chain dependencies, and sentiment-driven trends. By applying graph algorithms, MarketMind enhances event impact analysis, reduces noise, and improves predictive insights—transforming how markets are understood and analyzed.
 
+## Technical Demo (demo_features.py)
+
+See [here](https://youtu.be/ZbAoXYsBkuM) for my full technical demo!
+
+Shows raw system capabilities and data analysis:
+```python
+# Example: Analyze iPhone 15 launch impact across supply chain
+event_impact = tool.run("event_impact: ticker=AAPL, event_date=2023-09-12, window=5")
+supply_chain = tool.run("supply_chain_impact: ticker=AAPL, depth=2")
+```
+
 ## Why I Built This
 
 Traditional market analysis treats stocks as isolated entities, analyzing price movements in a vacuum. But markets are deeply interconnected - a chip shortage in Taiwan can impact iPhone sales, which affects hundreds of suppliers. I've built trading algorithms before, which told me about _how_ markets were moving, but never actually _why_ - I wanted to create a system that could derive a human-like understanding of markets. MarketMind uses graph database technology to map these complex relationships and predict cascade effects across markets.
@@ -14,20 +25,9 @@ Key differentiators:
 - **Sentiment Integration**: Combines news sentiment with price data to spot early warning signs
 - **Network Effects**: Uses graph algorithms to find hidden dependencies traditional analysis misses
 
-## Demo Options
+## Example Analysis
 
-### 1. Technical Demo (demo_features.py)
-
-See [here](https://youtu.be/ZbAoXYsBkuM) for my full technical demo!
-
-Shows raw system capabilities and data analysis:
-```python
-# Example: Analyze iPhone 15 launch impact across supply chain
-event_impact = tool.run("event_impact: ticker=AAPL, event_date=2023-09-12, window=5")
-supply_chain = tool.run("supply_chain_impact: ticker=AAPL, depth=2")
-```
-
-### 2. AI-Powered Analysis (demo.py)
+### AI-Powered Analysis (demo.py)
 Uses CrewAI and GPT-4 for intelligent market insights:
 ```python
 # Example: AI analysis of supply chain impacts
